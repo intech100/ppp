@@ -1,0 +1,12 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = true
+	logallrefupdates = true
+	bare = false
+[remote "origin"]
+	url = ssh://54996a0e5973ca7a2300015b@app004-intech100.rhcloud.com/~/git/app004.git/
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
